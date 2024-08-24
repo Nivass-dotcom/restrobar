@@ -1,0 +1,153 @@
+.mainbody{
+    flex-wrap: wrap;
+}
+.cont{
+    background-image: url(images/background.jpg);  
+    background-size: cover;
+    width: 476px;
+    height: 538px;
+    margin-top: 150px;
+    background-repeat: no-repeat;
+    
+  
+}
+.cont i{
+    font-size: xx-large;
+    font-weight: bolder;
+
+
+
+}
+.hii img{
+    margin-top: 160px;
+
+}
+
+.par{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    color: red;
+    text-align: inherit;
+}
+.res{
+    background-image: url(images/restrobar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+    height: 750px;
+    width: 100%;
+
+}
+.res h1{
+    color: rgb(208, 255, 255);
+    text-decoration: none;
+    text-shadow: 4px;
+    text-align: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.res p{
+    color: white;
+    text-decoration: none;
+    text-shadow: 4px;
+    text-align: center;
+    align-items: center;
+    height: 131px;
+}
+.chefspecial{
+    align-items: center;
+    text-align: center;
+    text-shadow: 5px;
+    color: rgb(59, 39, 95);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    
+}
+.chefspecial:hover{
+    color: rgb(157, 157, 87);
+
+}
+
+.imagee{
+    margin: 0px;
+    padding-top: 100px;
+    
+
+
+    
+}
+.breawery{
+    background-image: url(images/breawery.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+    height: 750px;
+    width: 100%;
+    opacity: 2;
+    visibility: inherit;
+}
+.breawery h3{
+    color: white;
+    text-decoration: none;
+    text-shadow: 4px;
+    text-align: center;
+    align-items: center;
+    padding-top: 350px;
+    
+}
+.special{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: x-large;
+    font-weight: 700;
+
+
+}
+
+.main{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff3b3b;
+  }
+  
+  .main:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .main2{
+    position: relative;
+  }
+  .main3{
+    position: relative;
+  }
+  
+  
